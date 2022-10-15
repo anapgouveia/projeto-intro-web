@@ -1,0 +1,149 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  margin: 10px;
+  padding: 5px;
+  color: rgb(67, 136, 193);
+  background-color: rgb(185, 193, 193);
+  font-size: 50px;
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+footer{
+  display: flex;  
+  flex-direction: row;
+  color: rgb(67, 136, 193);
+  background-color: rgb(185, 193, 193);
+  text-align: center;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+.img1{
+  margin: 20px;
+  justify-content: 10px;
+  width: 30px;
+
+}
+
+footer p{
+  text-align: center;
+}
+
+.um, section{
+  
+  padding: 20px;
+  height: auto;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+}
+
+a{
+  display: block;
+  text-align: center;
+}
+
+/* section{
+  display: block;
+  text-align: left;
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+body{
+  background-color: #cacce0;
+}
+
+
+/* h1{
+  text-align: center;
+  font-size: 100%;
+  display: flexbox;
+  font-style: oblique;
+
+} */
+
+
+ol{
+  height: 100px;
+  background-color: rgb(185, 193, 193);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 80px;
+   font-size: 20px;
+  display: inline;
+  text-justify: center;
+  
+}
+
+
+label{
+  display: inline;
+  color: black;
+}
+
+input{
+  background-color: blue;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  gap: 20px;
+  /* background-color: blue; */
+
+  /* align-items: center; */
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: left;
+    width: 20vw;
+  }
+
+.cardData{
+  font-size: 20px;
+  width: 20vw;
+  
+}
+
+.card ul li{
+  text-decoration: none;
+  list-style: none;
+
+  
+}
+
+.card img{
+    height: 20vw;
+    /* width: 20vw; */
+    object-fit: cover;
+
+
+}
+
+.dois{
+  padding: 20px;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+    }
+
+.dois ul{
+  text-decoration: none;
+  list-style: none;
+}
